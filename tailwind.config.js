@@ -4,36 +4,26 @@ export default {
   theme: {
     extend: {
       colors: {
-        cream: {
-          50: '#FFFDF7',
-          100: '#FDF6E3',
-          200: '#FCF3D7',
-          300: '#FAEDC7',
-          400: '#F7E4B0',
-          500: '#F4DA93',
-        },
-        paper: {
-          light: '#F5EDE4',
-          DEFAULT: '#E6D5C7',
-          dark: '#C4B5A8',
-        },
-        accent: {
-          primary: '#D4A373',
-          secondary: '#967259',
-        },
+        spice: 'var(--color-spice)',
+        marigold: 'var(--color-marigold)',
+        peacock: 'var(--color-peacock)',
+        saffron: 'var(--color-saffron)',
+        henna: 'var(--color-henna)',
+      },
+      backgroundColor: {
+        'warm-light': '#FDF2E9',
       },
       fontFamily: {
-        sans: [
-          '-apple-system',
-          'BlinkMacSystemFont',
-          '"Segoe UI"',
-          'Roboto',
-          'system-ui',
-          'sans-serif',
-        ],
+        sans: ['Inter var', 'sans-serif'],
       },
-      transitionDuration: {
-        DEFAULT: '300ms',
+      animation: {
+        'scroll-slow': 'scroll 40s linear infinite',
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translateY(-50%)' },
+        },
       },
     },
   },

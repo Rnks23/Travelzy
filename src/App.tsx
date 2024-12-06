@@ -1,16 +1,19 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Home } from './pages/Home';
-import { Login } from './pages/Login';
+import { Navbar } from './components/Navbar';
+import { Hero } from './components/Hero';
+import { Services } from './components/Services';
+import { Destinations } from './components/Destinations';
+import { Contact } from './components/Contact';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="min-h-screen">
+      <Navbar />
+      <Hero />
+      <Services />
+      <Destinations />
+      <Contact />
+    </div>
   );
 }
 
