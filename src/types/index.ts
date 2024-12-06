@@ -5,7 +5,7 @@ export interface Destination {
   description: string;
   price: string;
   duration: string;
-  highlights: readonly string[];
+  highlights: string[];
 }
 
 export interface BookingFormData {
