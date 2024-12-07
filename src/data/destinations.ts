@@ -43,7 +43,7 @@ export const destinations = [
   {
     id: '5',
     title: 'Kerala Backwaters',
-    image: 'https://images.unsplash.com/photo-1560347876-aeef00ee58a1',
+    image: 'https://images.unsplash.com/photo-1506461883276-594a12b11cf3',
     description: 'Cruise through serene waterways and lush greenery',
     price: 'From ₹25,000',
     duration: '5 Days',
@@ -53,7 +53,7 @@ export const destinations = [
   {
     id: '6',
     title: 'Manali, Himachal Pradesh',
-    image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216',
+    image: 'https://images.unsplash.com/photo-1712388430474-ace0c16051e2',
     description: 'Adventure and tranquility in the Himalayan hills',
     price: 'From ₹18,000',
     duration: '4 Days',
